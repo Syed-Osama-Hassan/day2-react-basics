@@ -37,6 +37,7 @@ jobs:
         with:
         # Yarn command
           cmd: install
+          
       - name: Creating Build
         run: yarn build
             
